@@ -55,4 +55,4 @@ TBD
 - [The ARK Identifier Scheme](https://datatracker.ietf.org/doc/html/draft-kunze-ark-34)
 - [Archival Resource Key Alliance](https://arks.org/)
 - [Name Assigning Authority Number (NAAN) Registry](https://n2t.net/e/pub/naan_registry.txt)
-- [Nice Opaque IDentifier (NOID](http://n2t.net/e/noid.html)
+- [Nice Opaque IDentifier (NOID)](http://n2t.net/e/noid.html)
