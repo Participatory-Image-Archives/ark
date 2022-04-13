@@ -28,6 +28,9 @@ Name Mapping Authority (NMA) |    Assigned Name
 | NAAN                   | TBD                                                         |
 | Assigned Name          | Composed of a shoulder, an identifier and a check character |
 
+### Examples
+TBD
+
 ## Minter
 TBD
 
