@@ -1,5 +1,5 @@
 # PIA Archival Resource Keys (ARKs)
-This repository is about how PIA manages its [Archival Resource Keys](https://arks.org/) (ARKs) as persistent identifiers and contains the following parts:
+This repository is about how PIA manages its Archival Resource Keys (ARKs) as persistent identifiers and contains the following parts:
 
 1. ARK Structure
 2. ARK Minter
@@ -21,7 +21,7 @@ This repository is about how PIA manages its [Archival Resource Keys](https://ar
                                  Check Zone
 
 ```
-### Main ARKs
+### Main components of PIA ARKs
 
 | **NMA and Base Compact Name** | **PIA**                                                     |
 |------------------------|-------------------------------------------------------------|
@@ -32,7 +32,12 @@ This repository is about how PIA manages its [Archival Resource Keys](https://ar
 | Blade         | Object Identifier appended by a check character |
 
 #### PIA ARK Shoulders
-TBD
+
+| **Shoulder** | **PIA (sub)-domain**                       |
+|---------------|--------------------------------------------|
+| TBD           | `https://participatory-archives.ch/`       |
+| TBD           | `https://data.participatory-archives.ch/`  |
+| TBD           | `https://vocab.participatory-archives.ch/` |
 
 #### Examples
 TBD
@@ -45,3 +50,9 @@ TBD
 
 ## Access persistence policy
 TBD
+
+## References
+- [The ARK Identifier Scheme](https://datatracker.ietf.org/doc/html/draft-kunze-ark-34)
+- [Archival Resource Key Alliance](https://arks.org/)
+- [Name Assigning Authority Number (NAAN) Registry](https://n2t.net/e/pub/naan_registry.txt)
+- [Nice Opaque IDentifier (NOID](http://n2t.net/e/noid.html)
