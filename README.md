@@ -10,25 +10,31 @@ This repository is about how PIA manages its [Archival Resource Keys](https://ar
 ### General ARK Anatomy
 
 ```
+                        Base Compact Name   Qualifiers
+                           _________________  ___________
+                          /                 \/           \
+      https://example.org/ark:12345/x6np1wh8k/c3/s5.v7.xsl
+              \_________/ \__/\___/\_/\_____/\____/\_____/
+                 NMA     Label NAAN |  Blade Parts Variants
+                                  Shoulder
+                              \_____________/
+                                 Check Zone
 
-  https://example.org/ark:12345/x54xz321/s3/f8.05v.tiff
-  \_________________/ \__/ \___/ \______/\____/\_______/
-              |        |     |      |      |       |
-              |  ARK Label   |      | Sub-parts  Variants
-              |              |      |
-Name Mapping Authority (NMA) |    Assigned Name
-                             |
-              Name Assigning Authority Number (NAAN)
 ```
-### The main components of our ARKs
+### Main ARKs
 
-| **ARK main component** | **PIA**                                                     |
+| **NMA and Base Compact Name** | **PIA**                                                     |
 |------------------------|-------------------------------------------------------------|
-| NMA                    | `https://ark.participatory-archives.ch/`                    |
-| NAAN                   | TBD                                                         |
-| Assigned Name          | Composed of a shoulder, an identifier and a check character |
+| Name Mapping Authority (NMA)                    | `https://ark.participatory-archives.ch/`                    |
+| Label                  | `ark:`                                                         |
+| Name Assigning Authority Number (NAAN)                   | TBD                                                         |
+| Shoulder         | One for each sub-domain |
+| Blade         | Object Identifier appended by a check character |
 
-### Examples
+#### PIA ARK Shoulders
+TBD
+
+#### Examples
 TBD
 
 ## Minter
