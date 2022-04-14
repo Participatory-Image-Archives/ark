@@ -27,7 +27,7 @@ This repository is about how PIA manages its Archival Resource Keys (ARKs) as pe
 |------------------------|-------------------------------------------------------------|
 | Name Mapping Authority (NMA)                    | `https://ark.participatory-archives.ch/`                    |
 | Label                  | `ark:`                                                         |
-| Name Assigning Authority Number (NAAN)                   | TBD                                                         |
+| Name Assigning Authority Number (NAAN)                   | 19156                                                         |
 | Shoulder         | One for each sub-domain |
 | Blade         | Object Identifier appended by a check character |
 
