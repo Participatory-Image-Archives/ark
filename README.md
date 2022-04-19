@@ -48,7 +48,7 @@ TBD
 ## Resolver
 TBD
 
-`https://ark.participatory-archives.ch/ark:19156/xy12345z` as well as `https://n2t.net/ark:19156/xy12345z` should redirect to `https://participatory-archives/xyz`
+`https://ark.participatory-archives.ch/ark:19156/xy12345z` as well as `https://n2t.net/ark:19156/xy12345z` should redirect to `https://participatory-archives/images/12345`
 
 ## Access persistence policy
 TBD
