@@ -40,7 +40,7 @@ This repository is about how PIA manages its Archival Resource Keys (ARKs) as pe
 |  dtf         | PIA API Object             | `https://data.participatory-archives.ch/object/`             |
 |  dtg         | PIA API Agent              | `https://data.participatory-archives.ch/agent/`              |
 |  ztf         | Linked Art API Object      | `https://linkedart.participatory-archives.ch/object/`        |
-|  ztf         | Linked Art API Agent       | `https://linkedart.participatory-archives.ch/agent/`         |
+|  ztg         | Linked Art API Agent       | `https://linkedart.participatory-archives.ch/agent/`         |
 |  tkt         | Vocabulary Term            | `https://vocab.participatory-archives.ch/`                   |
 |  rpz         | IIIF Resource              | `https://iiif.participatory-archives.ch/`                    |
 
