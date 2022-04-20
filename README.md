@@ -33,14 +33,22 @@ This repository is about how PIA manages its Archival Resource Keys (ARKs) as pe
 
 #### PIA ARK Shoulders
 
-| **Shoulder** | **PIA (sub)-domain**                       |
-|---------------|--------------------------------------------|
-| TBD           | `https://participatory-archives.ch/`       |
-| TBD           | `https://data.participatory-archives.ch/`  |
-| TBD           | `https://vocab.participatory-archives.ch/` |
+| **Shoulder** |  Use            | **PIA (sub)-domain**                                         |
+|--------------|-----------------|--------------------------------------------------------------|
+|  bnz         | Object          | `https://participatory-archives.ch/`                         |
+|  czn         | Person          | `https://participatory-archives.ch/`                         |
+|  dtf         | API Object      | `https://data.participatory-archives.ch/`                    |
+|  dtg         | API Person      | `https://data.participatory-archives.ch/`                    |
+|  tkt         | Vocabulary Term | `https://vocab.participatory-archives.ch/`                   |
+|  rpz         | IIIF Resource   | `https://iiif.participatory-archives.ch/`                    |
 
 #### Examples
-TBD
+
+|                   | **ARK**               | **Landing Page**                                             |
+|-------------------|-----------------------|--------------------------------------------------------------|
+| **PIA**           | `ark:19156/bnz14759x` | `https://participatory-archives.ch/object/14759`             |
+| **PIA API**       | `ark:19156/dtf14759y` | `https://data.participatory-archives.ch/object/14759`        |
+| **IIIF Manifest** | `ark:19156/rpz14759z` | `https://iiif.participatory-archives.ch/14759/manifest.json` |
 
 ## Minter
 TBD
