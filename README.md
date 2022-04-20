@@ -28,25 +28,25 @@ This repository is about how PIA manages its Archival Resource Keys (ARKs) as pe
 | Name Mapping Authority (NMA)                    | `https://ark.participatory-archives.ch/`                    |
 | Label                  | `ark:`                                                         |
 | Name Assigning Authority Number (NAAN)                   | `19156`                                                         |
-| Shoulder         | One for each sub-domain |
+| Shoulder         | A three-character prefix depending on sub-domains and object types such as `bnz` (cf. below) |
 | Blade         | Object Identifier appended by a check character |
 
 #### PIA ARK Shoulders
 
 | **Shoulder** |  Use            | **PIA (sub)-domain**                                         |
 |--------------|-----------------|--------------------------------------------------------------|
-|  bnz         | Object          | `https://participatory-archives.ch/`                         |
-|  czn         | Person          | `https://participatory-archives.ch/`                         |
-|  dtf         | API Object      | `https://data.participatory-archives.ch/`                    |
-|  dtg         | API Person      | `https://data.participatory-archives.ch/`                    |
-|  tkt         | Vocabulary Term | `https://vocab.participatory-archives.ch/`                   |
-|  rpz         | IIIF Resource   | `https://iiif.participatory-archives.ch/`                    |
+|  bnz         | Object              | `https://participatory-archives.ch/`                         |
+|  czn         | Person              | `https://participatory-archives.ch/`                         |
+|  dtf         | PIA API Object      | `https://data.participatory-archives.ch/`                    |
+|  dtg         | PIA API Person      | `https://data.participatory-archives.ch/`                    |
+|  tkt         | Vocabulary Term     | `https://vocab.participatory-archives.ch/`                   |
+|  rpz         | IIIF Resource       | `https://iiif.participatory-archives.ch/`                    |
 
 #### Examples
 
 |                   | **ARK**               | **Landing Page**                                             |
 |-------------------|-----------------------|--------------------------------------------------------------|
-| **PIA**           | `ark:19156/bnz14759x` | `https://participatory-archives.ch/object/14759`             |
+| **PIA**           | `ark:19156/bnz14759x` | `https://participatory-archives.ch/object/14759` (still _images_ for the moment)             |
 | **PIA API**       | `ark:19156/dtf14759y` | `https://data.participatory-archives.ch/object/14759`        |
 | **IIIF Manifest** | `ark:19156/rpz14759z` | `https://iiif.participatory-archives.ch/14759/manifest.json` |
 
@@ -56,7 +56,7 @@ TBD
 ## Resolver
 TBD
 
-`https://ark.participatory-archives.ch/ark:19156/xy12345z` as well as `https://n2t.net/ark:19156/xy12345z` should redirect to `https://participatory-archives.ch/images/12345`
+`https://ark.participatory-archives.ch/ark:19156/bnz14759x` as well as `https://n2t.net/ark:19156/bnz14759x` should redirect to `https://participatory-archives.ch/images/14759`
 
 ## Access persistence policy
 TBD
