@@ -1,10 +1,25 @@
-# PIA Archival Resource Keys (ARKs)
-This repository is about how PIA manages its Archival Resource Keys (ARKs) as persistent identifiers and contains the following parts:
+# Foreword
+For the PIA research project, we would like to have, as much as possible, consistent URI schemas. For this purpose, we set up quite a few sub-domains (as shown in the table below).
 
-1. ARK Structure
-2. ARK Minter
-3. ARK Resolver
-4. Access persistence policy
+| **Type**                                                           | **URI example**                                 |
+|----------------------------------------------------------------|----------------------------------------------------|
+| Digital representation of an object (with content negotiation) | `https://participatory-archives.ch/entity/<ID>`           |
+| PIA central API                                                | `https://data.participatory-archives.ch/entity/<ID>`      |
+| Linked Art API                                                 | `https://linkedart.participatory-archives.ch/entity/<ID>` |
+| IIIF Image API                                                 | `https://iiif.participatory-archives.ch/<ID>/info.json`                   |
+| IIIF Presentation API (Manifest/Collection)                               | `https://iiif.participatory-archives.ch/<ID>/manifest.json`                |
+| Controlled Vocabularies                                            | `https://vocab.participatory-archives.ch/vocabulary/<ID>`      |
+| Project Website                                            | `https://project.participatory-archives.ch/`      |
+
+To avoid link rot, we are going to leverage Archival Resource Keys (ARKs) as persistent identifiers.
+
+# PIA Archival Resource Keys (ARKs)
+For the management of the PIA ARKs, the following parts are described in this repository:
+
+- ARK Structure
+- ARK Minter
+- ARK Resolver
+- Access persistence policy
 
 ## Structure
 ### General ARK Anatomy
@@ -28,12 +43,12 @@ This repository is about how PIA manages its Archival Resource Keys (ARKs) as pe
 | Name Mapping Authority (NMA)             | `https://ark.participatory-archives.ch/`                                                     |
 | Label                                    | `ark:`                                                                                       |
 | Name Assigning Authority Number (NAAN)   | `19156`                                                                                      |
-| Shoulder                                 | A three-character prefix depending on sub-domains and object types such as `bnz` (cf. below) |
+| Shoulder                                 | A three-character prefix depending on sub-domains and entity types such as `bnz` (cf. below) |
 | Blade                                    | Object Identifier appended by a check character                                              |
 
 #### PIA ARK Shoulders
 
-| **Shoulder** |  Use                       | **PIA (sub)-domain**                                         |
+| **Shoulder** |  Use                       | **PIA (sub)-domain and entity**                                         |
 |--------------|----------------------------|--------------------------------------------------------------|
 |  bnz         | Object                     | `https://participatory-archives.ch/object/`                  |
 |  czn         | Agent                      | `https://participatory-archives.ch/agent/`                   |
