@@ -6,7 +6,7 @@ For the PIA research project, we would like to have, as much as possible, consis
 | Digital representation of an object (with content negotiation) | `https://participatory-archives.ch/entity/<ID>`           |
 | PIA central API                                                | `https://data.participatory-archives.ch/api/v1/entity/<ID>`      |
 | Linked Art API                                                 | `https://linkedart.participatory-archives.ch/entity/<ID>` |
-| IIIF Image API                                                 | `https://iiif.participatory-archives.ch/<ID>/info.json`                   |
+| IIIF Image API                                                 | `https://sipi.participatory-archives.ch/<ID>/info.json`                   |
 | IIIF Presentation API (Manifest/Collection)                               | `https://iiif.participatory-archives.ch/<ID>/manifest.json`                |
 | Controlled Vocabularies                                            | `https://vocab.participatory-archives.ch/vocabulary/<ID>`      |
 | Project Website                                            | `https://project.participatory-archives.ch/`      |
@@ -48,23 +48,24 @@ For the management of the PIA ARKs, the following parts are described in this re
 
 #### PIA ARK Shoulders
 
-| **Shoulder** |  Use                       | **PIA (sub)-domain and entity**                                         |
-|--------------|----------------------------|--------------------------------------------------------------|
-|  bnz         | Object                     | `https://participatory-archives.ch/object/`                  |
-|  czn         | Agent                      | `https://participatory-archives.ch/agent/`                   |
-|  dtf         | PIA API Object             | `https://data.participatory-archives.ch/api/v1/object/`             |
-|  dtg         | PIA API Agent              | `https://data.participatory-archives.ch/api/v1/agent/`              |
-|  ztf         | Linked Art API Object      | `https://linkedart.participatory-archives.ch/object/`        |
-|  ztg         | Linked Art API Agent       | `https://linkedart.participatory-archives.ch/agent/`         |
-|  tkt         | Vocabulary Term            | `https://vocab.participatory-archives.ch/`                   |
-|  rpz         | IIIF Resource              | `https://iiif.participatory-archives.ch/`                    |
+| **Shoulder** |  Use                             | **PIA (sub)-domain and entity**                              |
+|--------------|----------------------------------|--------------------------------------------------------------|
+|  bnz         | Object                           | `https://participatory-archives.ch/object/`                  |
+|  czn         | Agent                            | `https://participatory-archives.ch/agent/`                   |
+|  dtf         | PIA API Object                   | `https://data.participatory-archives.ch/api/v1/object/`      |
+|  dtg         | PIA API Agent                    | `https://data.participatory-archives.ch/api/v1/agent/`       |
+|  ztf         | Linked Art API Object            | `https://linkedart.participatory-archives.ch/object/`        |
+|  ztg         | Linked Art API Agent             | `https://linkedart.participatory-archives.ch/agent/`         |
+|  tkt         | Vocabulary Term                  | `https://vocab.participatory-archives.ch/`                   |
+|  cpz         | IIIF Image API                   | `https://sipi.participatory-archives.ch/`                    |
+|  rpz         | IIIF Presentation API Resource   | `https://iiif.participatory-archives.ch/`                    |
 
 #### Examples
 
 |                   | **ARK**               | **Landing Page**                                             |
 |-------------------|-----------------------|--------------------------------------------------------------|
 | **PIA**           | `ark:19156/bnz14759z` | `https://participatory-archives.ch/object/14759`             |
-| **PIA API**       | `ark:19156/dtf14759z` | `https://data.participatory-archives.ch/api/v1/object/14759`        |
+| **PIA API**       | `ark:19156/dtf14759z` | `https://data.participatory-archives.ch/api/v1/object/14759` |
 | **Linked Art API**| `ark:19156/ztf14759z` | `https://linkedart.participatory-archives.ch/object/14759`   |
 | **IIIF Manifest** | `ark:19156/rpz14759z` | `https://iiif.participatory-archives.ch/14759/manifest.json` |
 
