@@ -11,6 +11,8 @@ For the PIA research project, we would like to have, as much as possible, consis
 | Controlled Vocabularies                                            | `https://vocab.participatory-archives.ch/vocabulary/<ID>`      |
 | Project Website                                            | `https://project.participatory-archives.ch/`      |
 
+For Linked Art, we will try to follow the [preferred endpoint path names](https://linked.art/api/1.0/protocol/#uri-good-practices) for entities (with some tweaks for `person` and `group` as we will leverage `agent` instead)
+
 To avoid link rot, we are going to leverage Archival Resource Keys (ARKs) as persistent identifiers.
 
 # PIA Archival Resource Keys (ARKs)
