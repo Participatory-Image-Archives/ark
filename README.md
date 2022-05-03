@@ -6,7 +6,7 @@ For the PIA research project, we would like to have, as much as possible, consis
 | Digital representation of an object (with content negotiation) | `https://participatory-archives.ch/entity/<ID>`           |
 | PIA central API                                                | `https://data.participatory-archives.ch/api/v1/entity/<ID>`      |
 | Linked Art API                                                 | `https://linkedart.participatory-archives.ch/entity/<ID>` |
-| IIIF Image API                                                 | `https://sipi.participatory-archives.ch/<ID>/info.json`                   |
+| IIIF Image API                                                 | `https://sipi.participatory-archives.ch/<collection>/<ID>/info.json`                   |
 | IIIF Presentation API (Manifest/Collection)                               | `https://iiif.participatory-archives.ch/<ID>/manifest.json`                |
 | Controlled Vocabularies                                            | `https://vocab.participatory-archives.ch/vocabulary/<ID>`      |
 | Project Website                                            | `https://project.participatory-archives.ch/`      |
