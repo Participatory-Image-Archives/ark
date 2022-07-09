@@ -57,7 +57,9 @@ For the management of the PIA ARKs, the following parts are described in this re
 |  dtf         | PIA API Object                   | `https://data.participatory-archives.ch/api/v1/object/`      |
 |  dtg         | PIA API Agent                    | `https://data.participatory-archives.ch/api/v1/agent/`       |
 |  ztf         | Linked Art API Object            | `https://linkedart.participatory-archives.ch/object/`        |
-|  ztg         | Linked Art API Agent             | `https://linkedart.participatory-archives.ch/agent/`         |
+|  ztg         | Linked Art API Digital           | `https://linkedart.participatory-archives.ch/digital/`       |
+|  zth         | Linked Art API Person            | `https://linkedart.participatory-archives.ch/person/`        |
+|  ztj         | Linked Art API Group             | `https://linkedart.participatory-archives.ch/group/`         |
 |  tkt         | Vocabulary Term                  | `https://vocab.participatory-archives.ch/`                   |
 |  cpz         | IIIF Image API                   | `https://sipi.participatory-archives.ch/`                    |
 |  rpz         | IIIF Presentation API Resource   | `https://iiif.participatory-archives.ch/`                    |
