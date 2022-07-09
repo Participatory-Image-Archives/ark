@@ -70,7 +70,7 @@ For the management of the PIA ARKs, the following parts are described in this re
 |-------------------|-----------------------|--------------------------------------------------------------|
 | **PIA**           | `ark:19156/bnz14759z` | `https://participatory-archives.ch/object/14759`             |
 | **PIA API**       | `ark:19156/dtf14759z` | `https://data.participatory-archives.ch/api/v1/object/14759` |
-| **Linked Art API**| `ark:19156/ztf14759z` | `https://linkedart.participatory-archives.ch/object/14759`   |
+| **Linked Art API**| `ark:19156/ztg14759z` | `https://linkedart.participatory-archives.ch/digital/14759`  |
 | **IIIF Manifest** | `ark:19156/rpz14759z` | `https://iiif.participatory-archives.ch/14759/manifest.json` |
 
 ## Minter
